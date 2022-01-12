@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+
+body {
+  font-size: 100%;
+  background: #0f222d;
+}
+
+.btn-primary {
+  width: auto;
+  background: white;
+  color: black;
+}
+.navbar-expand-lg {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho-imagem {
+  height: 70px;
+  width: 70px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid white;
+}
+
+.counteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: white;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: white;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: white;
+  width: 185px;
+  height: 70px;
+  border: none;
+  box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.conteudo-principal-imagem {
+  margin: 50px;
+  height: 430px;
+  border-radius: 600px;
+}
+
+.conteudo-secundario {
+  border-top: 0.4px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  padding-top: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 20;
+  font-size: 24px;
+  color: white;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid white;
+  padding-left: 500px;
+}
+
+.rodape-imagem {
+  height: 48px;
+  margin: auto;
+}
